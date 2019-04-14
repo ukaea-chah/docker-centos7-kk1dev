@@ -1,4 +1,4 @@
-FROM centos7-nidaqmx
+FROM ukaeachah/centos7-nidaqmx
 
 # Other packages useful for building applications
 RUN yum -y install make autoconf automake libtool
