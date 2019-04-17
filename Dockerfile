@@ -4,6 +4,7 @@ FROM ukaeachah/centos7-nidaqmx
 RUN yum -y install make autoconf automake libtool
 
 # For compilation of kk1rt
-RUN yum -y install fftw-devel libcap-devel
+RUN yum -y install fftw-devel libcap-devel systemd-devel
+
 # For releasing python modules
 RUN yum -y install python-setuptools
